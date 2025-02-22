@@ -1,1 +1,70 @@
+# **Network Traffic Analysis**
 
+---
+
+### **Man-in-the-Middle Attack**
+
+---
+
+#### **Objective:**
+
+Explore how to capture and analyze HTTP login credentials using Wireshark in a MITM attack scenario.
+
+---
+
+### **Tools Required:**
+
+- **Wireshark** – A network protocol analyzer to monitor and inspect network traffic.
+- **Web Browser** – To access a non-encrypted login page.
+- **HTTP-Based Website** – A website that transmits data over HTTP (not HTTPS).
+- **Network Access** – The attacker must have a way to intercept communication between the client and server.
+
+---
+
+### **Step-by-Step Process:**
+
+**Launching Wireshark:**
+
+- Opened **Wireshark** and selected the active network interface (e.g., Wi-Fi adapter).
+- Started packet capture by clicking the blue shark fin button.
+
+**Accessing an HTTP Website:**
+
+- Opened a web browser and navigated to a site that operates on **HTTP**.
+- Verified the absence of encryption by checking that the URL started with **http://**.
+
+**Submitting Login Credentials:**
+
+- Entered the following details on the HTTP login form:
+  - **Username:** test
+  - **Password:** test
+- Submitted the login form while Wireshark was actively capturing packets.
+
+**Filtering and Inspecting Captured Data:**
+
+- Switched back to Wireshark and applied the **HTTP filter** in the search bar.
+- Identified the **POST request** that contained the login form submission.
+
+**Extracting Credentials:**
+
+- Selected the captured HTTP POST packet.
+- Expanded the **Hypertext Transfer Protocol (HTTP)** section in the packet details.
+- Located the credentials transmitted in plaintext:
+  - `username=test`
+  - `password=test`
+
+---
+
+### **Conclusion:**
+
+- This process demonstrates the vulnerability of HTTP login pages, where credentials are transmitted in plaintext.
+- Attackers can easily intercept and retrieve sensitive information using basic packet analysis.
+- To prevent such security risks, always use **HTTPS-encrypted** websites.
+
+---
+
+#### **Task Summary:**
+
+Performed a **network traffic analysis** using **Wireshark** to capture and examine login credentials over an **unencrypted HTTP connection**.
+
+---
