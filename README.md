@@ -1,12 +1,28 @@
 # Uneeq Interns - Cybersecurity 🛡️  
 Cybersecurity internship projects and research at Uneeq Interns. 
 
-## 🔹 Key Highlights
-- [Network Traffic Analysis](https://shorturl.at/95rh8)
-- [Vulnerability Assessment]()
-- [SQL Injection]()
 
-## Contents
-- Labs & Challenges – Practical cybersecurity exercises
-- Reports – Documentation of assessments and findings
-- Tools & Scripts – Custom scripts used during engagements
+## 🔍 Task Breakdown  
+
+### 🔹 SQL Injection   
+- **Objective:** Identify and exploit SQL Injection vulnerabilities.  
+- **Skills Covered:** SQL security, Python scripting.  
+- **Deliverables:** Detection tool, security recommendations.  
+🔗 [View Task](https://github.com/Maria-Ramy/Uneeq_Interns/tree/main/Tasks/SQL%20Injection)  
+
+### 🔹 Vulnerability Assessment  
+- **Objective:** Conduct a security assessment on a web app or network.  
+- **Tools Used:** Nmap, Nessus, OpenVAS.  
+- **Deliverables:** Vulnerability report, risk classification, mitigation steps.  
+🔗 [View Task](https://github.com/Maria-Ramy/Uneeq_Interns/tree/main/Tasks/Vulnerability%20assessment)  
+
+### 🔹 Network Traffic Investigation  
+- **Objective:** Monitor and analyze network traffic for threats.  
+- **Tools Used:** Wireshark, Tcpdump.  
+- **Deliverables:** Traffic logs, security insights, defense strategies.  
+🔗 [View Task]()  
+
+⚠️ **Ethical Use Only:** These projects are for **learning and authorized testing**. Do not apply them on unauthorized systems.  
+
+🔐 *Secure, Learn, and Innovate!*  
+
